@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.clock-container {
+  font-family: "Arial", sans-serif;
+  font-size: 48px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.day-theme {
+  background-color: #f0f8ff;
+  color: #000;
+}
+
+.night-theme {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
